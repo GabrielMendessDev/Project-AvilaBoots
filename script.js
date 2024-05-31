@@ -12,7 +12,7 @@ function toggleMode() {
 
   if (html.classList.contains("light")) {
     //se tiver light mode, adicionar a imagem light
-    img.setAttribute("src", "./assets/bg-mobile-light.jpg")
+    img.setAttribute("src", "./assets/bg-desktop-light.jpg")
     img.setAttribute("alt", "image-profile-white")
   } else {
     //se tiver sem light mode, manter a imagem normal
